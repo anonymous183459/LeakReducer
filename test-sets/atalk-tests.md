@@ -5,7 +5,7 @@ E.g. following is sample random input (hexadecimal) <br>
 
 The first 24 bytes of this binary data is assigned to the memory of the 
 structure variable. And, the last bit of last byte is assigned to peer 
-variable.
+variable (lastbyte modules 2).
 In general, the first 4 bytes (FDA65B27) are assigned 
 to the char fields: dst_node, src_node, dst_port, and src_port.
 Next 4 bytes (282D976B) is assigned to the integer variable sk_state
